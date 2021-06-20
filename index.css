@@ -1,0 +1,33 @@
+
+/* Canvas Data design */
+.canvas_design{
+    line-height: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+.canvas_design>canvas{
+    cursor: pointer;
+}
+
+/* buttons Designing Data */
+.buttons_doing{
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.btn,.btn_volume{
+    cursor: pointer;
+    text-align: center;
+    padding:10px;
+    font-size: 35px;
+    width: 100px;
+    background-color: white;
+    color: rgb(10, 160, 219);
+    border-radius: 30px;
+    border: 1px solid rgb(10, 160, 219);
+}
+.btn_volume{
+    font-size: 15px;
+    padding: 5px;
+    width: 70px;
+}

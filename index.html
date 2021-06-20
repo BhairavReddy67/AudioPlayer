@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- canvas Design -->
+    <div class="canvas_design"style="line-height: 0px;">
+        <canvas id="mycanvas" height="200" width="800"></canvas><br/>
+        <canvas id="mycanvas1" height="150" width="800"></canvas>
+    </div>
+    
+    <!-- upload Song and doing Actions -->
+    <div class="buttons_doing">
+        <audio src="./Songs/song1.mp3" ontimeupdate="dataTime()"></audio>
+        <button class="btn_volume" id="volume"><i class="fa fa-volume-up"></i></button>
+        <button id="btn" class="btn"><i class="fa fa-play"></i></button>
+        <button class="btn_volume" id="fastForward"><i class="fa fa-forward"></i></button>
+
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
